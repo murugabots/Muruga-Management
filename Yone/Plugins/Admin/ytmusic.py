@@ -32,10 +32,10 @@ from pyrogram import filters
 from pytube import YouTube
 from requests import get
 
-from Exon import aiohttpsession as session
-from Exon import arq, pgram
-from Exon.core.decorators.errors import capture_err
-from Exon.utils.pastebin import paste
+from Yone import aiohttpsession as session
+from Yone import arq, pgram
+from Yone.core.decorators.errors import capture_err
+from Yone.utils.pastebin import paste
 
 is_downloading = False
 
