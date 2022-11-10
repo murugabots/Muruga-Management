@@ -34,8 +34,8 @@ from contextlib import redirect_stdout
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 
-from Exon import LOGGER, dispatcher
-from Exon.modules.helper_funcs.chat_status import dev_plus
+from Yone import LOGGER, dispatcher
+from Yone.modules.helper_funcs.chat_status import dev_plus
 
 namespaces = {}
 
