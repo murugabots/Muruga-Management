@@ -28,7 +28,7 @@ from telegram import Update
 from telegram.ext import CallbackContext
 
 from Yone import dispatcher
-from Yone.modules.disable import DisableAbleCommandHandler
+from Yone.Plugins.disable import DisableAbleCommandHandler
 
 reactions = [
     "( ͡° ͜ʖ ͡°)",
